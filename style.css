@@ -1,0 +1,10 @@
+*{
+ text-align: center;
+ margin: 10px auto;
+}
+
+a {
+ color: brown;
+ display: block;
+ font-size:x-large
+}

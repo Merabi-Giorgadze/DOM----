@@ -1,0 +1,75 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+}
+
+.container {
+  width: 600px;
+  max-width: 80%;
+  height: 250px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  border-color: black;
+}
+
+.btn.correct {
+  background-color: green;
+  color: white;
+}
+
+.btn.wrong {
+  background-color: red;
+  color: white;
+}
+
+.start-btn, .next-btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+#score-container {
+  font-size: 1.2em;
+  margin-top: 20px;
+  text-align: center;
+  margin: 10px auto;
+}
